@@ -1,5 +1,5 @@
 {
-  "name": "validator",
+  "name": "prop-validator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
