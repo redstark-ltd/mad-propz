@@ -3,7 +3,7 @@ const htmlId = (props, propName, componentName = 'Anon') => {
 
   if (
     value == null
-    || (typeof value === 'string' && /^[a-z0-9\-\s]*$/.text(value))
+    || (typeof value === 'string' && /^[a-z0-9\-\s]*$/.test(value))
   ) {
     return null
   }
