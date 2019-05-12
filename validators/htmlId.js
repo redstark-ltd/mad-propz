@@ -11,4 +11,4 @@ const htmlId = (props, propName, componentName = 'Anon') => {
   return new TypeError(`Invalid htmlId Prop Value: ${value} for ${propName} in ${componentName}`);
 }
 
-export default htmlId
+module.exports = htmlId

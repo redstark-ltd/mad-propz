@@ -11,4 +11,4 @@ const internalUrl = (props, propName, componentName = 'Anon') => {
   return new TypeError(`Invalid internalUrl Prop Value: ${value} for ${propName} in ${componentName}`);
 }
 
-export default internalUrl
+module.exports = internalUrl
