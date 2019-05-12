@@ -1,3 +1,6 @@
-module.export = {
-  internalUrl: require('internalUrl')
+const PropValidator = {
+  internalUrl: require('./validators/internalUrl'),
+  htmlId: require('./validators/htmlId')
 }
+
+export default PropValidator
