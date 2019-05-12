@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/redstark-ltd/validator.git"
+    "url": "git+https://github.com/redstark-ltd/prop-validator.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/redstark-ltd/validator/issues"
+    "url": "https://github.com/redstark-ltd/prop-validator/issues"
   },
-  "homepage": "https://github.com/redstark-ltd/validator#readme"
+  "homepage": "https://github.com/redstark-ltd/prop-validator#readme"
 }
