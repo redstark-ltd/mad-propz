@@ -1,25 +1,25 @@
 {
-  "name": "prop-validator",
+  "name": "mad-propz",
   "version": "1.0.0",
-  "description": "Flexible custom react prop validator",
+  "description": "Flexible react prop validation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/redstark-ltd/prop-validator.git"
+    "url": "git+https://github.com/redstark-ltd/mad-propz.git"
   },
   "keywords": [
-    "React",
-    "Props",
-    "Prop",
-    "Validator"
+    "props",
+    "validation",
+    "prop",
+    "react"
   ],
-  "author": "Warren Fitzpatrick",
+  "author": "Red Stark Ltd",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/redstark-ltd/prop-validator/issues"
+    "url": "https://github.com/redstark-ltd/mad-propz/issues"
   },
-  "homepage": "https://github.com/redstark-ltd/prop-validator#readme"
+  "homepage": "https://github.com/redstark-ltd/mad-propz#readme"
 }

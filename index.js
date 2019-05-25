@@ -53,4 +53,6 @@ const madProps = (customValidations = {}, props, propName, componentName = 'Anon
   return null
 }
 
+madProps.create = (customValidations) => madProps.bind(null, customValidations)
+
 module.exports = madProps
