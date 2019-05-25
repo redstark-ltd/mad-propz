@@ -22,6 +22,7 @@ const internalUrl = madPropz.create({
 YourComponent.propTypes = {
   url: internalUrl
 }
+```
 
 All keys in the passed object are optional
 
@@ -29,5 +30,4 @@ isRequired: Just like react does with .isRequired this will return a warning if 
 minLength: Specify the minimum value length of the prop
 maxLength: Specify the maximum value length of the prop
 regex: A simple way to pass through a regex that the value must match
-func: This is a flexible way to do what ever you want with the value of the prop.  Return a new TypeError as the example shows when there is an error and return null when everything is OK  
-```
+func: This is a flexible way to do what ever you want with the value of the prop.  Return a new TypeError as the example shows when there is an error and return null when everything is OK
