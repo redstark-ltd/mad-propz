@@ -48,7 +48,7 @@ const madProps = (customValidations = {}, props, propName, componentName = 'Anon
   if (
     func
     && typeof func === 'function'
-  ) return func(props, propName, componentName)
+  ) return func(value, propName, componentName)
 
   return null
 }
