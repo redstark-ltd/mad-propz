@@ -19,6 +19,10 @@ const internalUrl = madPropz.create({
   }
 })
 
+YourComponent.propTypes = {
+  url: internalUrl
+}
+
 All keys in the passed object are optional
 
 isRequired: Just like react does with .isRequired this will return a warning if no value is passed to the prop
